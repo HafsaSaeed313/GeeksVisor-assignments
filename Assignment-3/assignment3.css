@@ -1,0 +1,30 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 237, 139);
+}
+.main{
+    display: inline-flex;
+}
+
+.box1{
+    width: 300px;
+    height: 280px;
+    margin: 60px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.box1 img{
+    width: 120px;
+    height: 120px;
+    margin-left: 80px ;
+}
+p{
+    background-color: rgb(0, 255, 200);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: arial;
+    color: rgb(231, 62, 166);
+}
