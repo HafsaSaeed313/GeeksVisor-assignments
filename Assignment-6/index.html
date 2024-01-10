@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and js Practice</title>
+</head>
+<style>
+.main{
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background: #ece6e6;
+    border-radius: 10px;
+    position: absolute;
+    margin: 50px;
+}
+ul li{
+    list-style: square;   
+}
+a:link, a:visited {
+  background-color: #15def8;
+  color: rgb(15, 15, 15);
+  margin: 20px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: rgb(159, 240, 67);
+}
+
+</style>
+<body>
+   <div class="main">
+    <h1>Links</h1>
+
+    <h3>Writing Links</h3>
+    <p>Links are created using the "a" element. Users can click on anything
+        between the opening "a" tag and the closing "a" tag. You specify
+        which page you want to link to using the href attribute.</p>
+
+    <h2>Example</h2>
+    <ul>
+        <li><a href="https://pk.linkedin.com/" target="_blank">Linkdln link</a></li>
+        <li><a href="https://www.instagram.com/accounts/login/" target="_blank">Instagram link</a></li>
+        <li><a href="https://twitter.com/i/flow/login" target="_blank">Twitter link</a></li>
+        <li><a href="https://www.freecodecamp.org/" target="_blank">freecodecamp link</a></li>
+    </ul>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
