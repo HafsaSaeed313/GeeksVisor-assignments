@@ -1,0 +1,27 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.Images{
+    display: flex; 
+    grid-row: 3;
+}
+
+img{
+    width: 30%;
+    object-fit: cover;
+    margin: 20px;
+    transition: transform .5s;
+    border: 2px solid white;
+}
+
+img:hover{
+    transform: translateY(-10px);
+}
